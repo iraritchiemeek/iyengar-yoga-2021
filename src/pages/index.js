@@ -17,7 +17,7 @@ function IndexPage() {
       </Row>
     </Container>
     <Container fluid className="g-4">
-      <Row xs={1} md={6} className="mt-4 g-4 justify-content-md-center">
+      <Row xs={1} md={6} className="mt-4 g-4 justify-content-center">
         <Col><h2>New Students</h2></Col>
         <Col>
           <h3>Beginner courses</h3>
@@ -39,7 +39,13 @@ function IndexPage() {
           <StaticImage src="../images/header-image.jpg" alt="Students" className="m-4"/>
         </Col>
         <Col md={4} className="mt-auto mb-auto">
-          <StaticImage src="../images/header-image.jpg" alt="Students" className="mt-4"/>
+          <StaticImage src="../images/header-image.jpg" alt="Students" className="m-4"/>
+        </Col>
+      </Row>
+      <Row xs={1} md={6} className="justify-content-center mt-4">
+        <Col md={6}>
+          <p className="quote">“Change leads to disappointment if it is not sustained. Transformation is sustained change, and it is achieved through practice.”</p>
+          <p>- B.K.S Iyengar</p>
         </Col>
       </Row>
     </Container>
