@@ -17,7 +17,7 @@ function IndexPage() {
       </Row>
     </Container>
     <Container fluid className="g-4">
-      <Row xs={1} md={6} className="mt-4 g-4 justify-content-center">
+      <Row xs={1} md={6} className="pt-10 g-4 justify-content-center">
         <Col><h2>New Students</h2></Col>
         <Col>
           <h3>Beginner courses</h3>
@@ -34,21 +34,21 @@ function IndexPage() {
           <p>Please feel free to contact Tessa if you have any questions or if you would like further advice regarding the best way to start your yoga practice with us.</p>
         </Col>
       </Row>
-      <Row xs={1} className="d-flex justify-content-between align-content-center mt-4">
+      <Row xs={1} className="d-flex justify-content-between align-content-center pt-10">
         <Col md={6}>
-          <StaticImage src="../images/header-image.jpg" alt="Students" className="m-4"/>
+          <StaticImage src="../images/download-5.jpg" alt="Students" className="m-4"/>
         </Col>
-        <Col md={4} className="mt-auto mb-auto">
-          <StaticImage src="../images/header-image.jpg" alt="Students" className="m-4"/>
+        <Col md={4} className="mt-auto mb-auto p-4">
+          <StaticImage src="../images/Iyengar_yoga_2020_bw_3085.jpg" alt="Students" className="m-4"/>
         </Col>
       </Row>
-      <Row xs={1} className="justify-content-center mt-4">
+      <Row xs={1} className="justify-content-center pt-10">
         <Col md={8}>
           <p className="quote">“Change leads to disappointment if it is not sustained. Transformation is sustained change, and it is achieved through practice.”</p>
           <p className="quote-author">- B.K.S Iyengar</p>
         </Col>
       </Row>
-      <Row xs={1} md={6} className="mt-4 g-4 justify-content-center">
+      <Row xs={1} md={6} className="g-4 justify-content-center pt-10">
         <Col><h2 className="sticky-top pt-4">Class Levels</h2></Col>
         <Col>
           <ul className="sticky-top pt-4 list-unstyled">
@@ -99,6 +99,21 @@ function IndexPage() {
             <p>Students start as beginners together and the course will develop confidence while starting a yoga practice.</p>
             <p>For more information please visit our New Students page.</p>
           </div>
+        </Col>
+      </Row>
+      <Row xs={1} className="d-flex justify-content-between align-content-center pt-10">
+        <Col md={6}>
+          <Row className="d-flex justify-content-end">
+            <Col md={12} xs={12}>
+              <StaticImage src="../images/download-5.jpg" alt="Students" className="m-4"/>
+            </Col>
+            <Col md={9}>
+              <StaticImage src="../images/home2.jpg" alt="Students" className="m-4 pt-10" objectFit="contain"/>
+            </Col>
+          </Row>
+        </Col>
+        <Col md={4} className="mt-auto mb-auto p-4">
+          <StaticImage src="../images/download-6.jpg" alt="Students" className="m-4"/>
         </Col>
       </Row>
     </Container>
