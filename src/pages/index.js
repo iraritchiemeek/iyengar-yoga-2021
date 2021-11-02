@@ -116,6 +116,40 @@ function IndexPage() {
           <StaticImage src="../images/download-6.jpg" alt="Students" className="m-4"/>
         </Col>
       </Row>
+      <Row xs={1} md={6} className="pt-10 g-4 justify-content-center">
+        <Col><h2>Pricing</h2></Col>
+        <Col>
+          <ul className="list-unstyled">
+            <h3>10 Class Card - $200</h3>
+            <li>Valid 5 weeks</li>
+            <li><a href="#">Purchase</a></li>
+          </ul>
+          <ul className="list-unstyled">
+            <h3>10 Class Card - $180</h3>
+            <li>No Expiry</li>
+            <li><a href="#">Purchase</a></li>
+          </ul>
+          <ul className="list-unstyled">
+            <h3>20 Class Card - $320</h3>
+            <li>Valid 7 weeks</li>
+            <li><a href="#">Purchase</a></li>
+          </ul>
+        </Col>
+        <Col md={4}>
+          <h3>Yoga Gift Vouchers</h3>
+          <p>We have beautiful gift vouchers available for all our classes and courses. Please email tessa@wellingtonyoga.co.nz to enquire.</p>
+          <h3>Things To Know</h3>
+          <p>Please try to arrive and be ready and settled on your mat by the class start time. We take shoes off at the door and carry through to the changing rooms. Always switch cell phones off for the duration of the class.</p>
+          <p>It is better not to eat 2-3 hours before class. No water bottles in class please as it is better to drink before and after practicing, not during.</p>
+          <p>Wear comfortable clothing, preferably that fits around the knees, or so the knees can be seen. This is so the teacher can check the alignment of the knee joint, especially if you have knee issues.</p>
+          <p>Out of respect for others in the room please refrain from wearing perfumes or strong deodorants.</p>
+          <p>Remember, yoga is non-competitive – do not be concerned with others – you are practicing for your own yoga process.</p>
+          <p>All prices include GST. Eftpos available (not credit). No refunds or transfers.</p>
+          <h3>Online Classes</h3>
+          <p>Our usual yoga passes are valid to use for our online passes. If you are not sure how frequently you will attend online classes, choose the 'no expiry' card.</p>
+          <p>For further information about our live-streamed classes visit our Online Classes page.</p>
+        </Col>
+      </Row>
     </Container>
     </>
   )
