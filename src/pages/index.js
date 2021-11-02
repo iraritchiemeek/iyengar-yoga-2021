@@ -150,6 +150,9 @@ function IndexPage() {
           <p>For further information about our live-streamed classes visit our Online Classes page.</p>
         </Col>
       </Row>
+      <Row className="pt-10">
+        <Col><StaticImage src="../images/home2.jpg" objectFit="cover" alt="Students" className="m-4"/></Col>
+      </Row>
     </Container>
     </>
   )
