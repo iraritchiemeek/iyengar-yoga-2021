@@ -5,12 +5,17 @@ import Col from 'react-bootstrap/Col'
 import { StaticImage } from "gatsby-plugin-image"
 import "@fontsource/open-sans"
 
+import Header from '../components/header'
+import BgGrid from '../components/bgGrid'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/base.scss'
 
 function IndexPage() {
   return (
     <>
+    <BgGrid />
+    <Header />
     <Container fluid>
       <Row xs={1}>
         <StaticImage src="../images/header-image.jpg" alt="Students" />

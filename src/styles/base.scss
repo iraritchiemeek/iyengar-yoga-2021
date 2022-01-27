@@ -1,3 +1,5 @@
+$blue: rgba(119,196,217);
+
 body {
 	margin: 0;
 	font-family: 'Open Sans';
@@ -33,5 +35,31 @@ h3 {
 }
 
 .pt-10 {
-	padding-top: 10rem;
+	padding-top: 10em;
 }
+
+.logo {
+	font-weight: bold;
+	line-height: 1.2em;
+}
+
+.bg-grid {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+	.row {
+		height: 100%;
+	}
+	.col {
+		height: 100%;
+		border-right: 1px solid $blue;
+		opacity: 0.2;
+	}
+}
+
+
+
+
+
+
