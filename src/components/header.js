@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col'
 
 function Header() {
 	return (
-		<header className="px-3 py-5">
+		<header className="px-3 py-5 bg-white position-relative">
 			<Row>
 				<Col>
 					<Row>

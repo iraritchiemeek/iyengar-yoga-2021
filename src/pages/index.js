@@ -6,7 +6,9 @@ import { StaticImage } from "gatsby-plugin-image"
 import "@fontsource/open-sans"
 
 import Header from '../components/header'
+import Footer from '../components/footer'
 import BgGrid from '../components/bgGrid'
+import Timetable from '../components/timetable'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/base.scss'
@@ -14,6 +16,7 @@ import '../styles/base.scss'
 function IndexPage() {
   return (
     <>
+    <Timetable />
     <BgGrid />
     <Header />
     <Container fluid>
@@ -23,13 +26,15 @@ function IndexPage() {
     </Container>
     <Container fluid className="g-4">
       <Row xs={1} md={6} className="pt-10 g-4 justify-content-center">
-        <Col><h2>New Students</h2></Col>
+        <Col><h2 className="pt-4 sticky-top">New Students</h2></Col>
         <Col>
-          <h3>Beginner courses</h3>
-          <p>Tuesdays 7.45 – 9pm</p>
-          <p>Upcoming Courses:</p>
-          <p>Tuesday 18th August – 22nd September</p>
-          <p>Tuesday 20th October – 24th November</p>
+          <div className="pt-4 sticky-top">
+            <h3>Beginner courses</h3>
+            <p>Tuesdays 7.45 – 9pm</p>
+            <p>Upcoming Courses:</p>
+            <p>Tuesday 18th August – 22nd September</p>
+            <p>Tuesday 20th October – 24th November</p>
+          </div>
         </Col>
         <Col md={4}>
           <p>New students are welcome to join our studio anytime and we teach in a way that makes yoga accessible to everybody regardless of age, gender, fitness or flexibility. We think everyone can benefit from the practice of yoga, it’s all about how we practice.</p>
@@ -54,7 +59,7 @@ function IndexPage() {
         </Col>
       </Row>
       <Row xs={1} md={6} className="g-4 justify-content-center pt-10">
-        <Col><h2 className="sticky-top pt-4">Class Levels</h2></Col>
+        <Col><h2 className="spt-4 pt-4 sticky-top">Class Levels</h2></Col>
         <Col>
           <ul className="sticky-top pt-4 list-unstyled">
             <li><a href="#level-1">Level 1</a></li>
@@ -122,23 +127,25 @@ function IndexPage() {
         </Col>
       </Row>
       <Row xs={1} md={6} className="pt-10 g-4 justify-content-center">
-        <Col><h2>Pricing</h2></Col>
+        <Col><h2 className="pt-4 sticky-top">Pricing</h2></Col>
         <Col>
-          <ul className="list-unstyled">
-            <h3>10 Class Card - $200</h3>
-            <li>Valid 5 weeks</li>
-            <li><a href="#">Purchase</a></li>
-          </ul>
-          <ul className="list-unstyled">
-            <h3>10 Class Card - $180</h3>
-            <li>No Expiry</li>
-            <li><a href="#">Purchase</a></li>
-          </ul>
-          <ul className="list-unstyled">
-            <h3>20 Class Card - $320</h3>
-            <li>Valid 7 weeks</li>
-            <li><a href="#">Purchase</a></li>
-          </ul>
+          <div className="pt-4 sticky-top">
+            <ul className="list-unstyled">
+              <h3>10 Class Card - $200</h3>
+              <li>Valid 5 weeks</li>
+              <li><a href="#">Purchase</a></li>
+            </ul>
+            <ul className="list-unstyled">
+              <h3>10 Class Card - $180</h3>
+              <li>No Expiry</li>
+              <li><a href="#">Purchase</a></li>
+            </ul>
+            <ul className="list-unstyled">
+              <h3>20 Class Card - $320</h3>
+              <li>Valid 7 weeks</li>
+              <li><a href="#">Purchase</a></li>
+            </ul>
+          </div>
         </Col>
         <Col md={4}>
           <h3>Yoga Gift Vouchers</h3>
@@ -159,6 +166,7 @@ function IndexPage() {
         <Col><StaticImage src="../images/home2.jpg" objectFit="cover" alt="Students" className="m-4"/></Col>
       </Row>
     </Container>
+    <Footer />
     </>
   )
 }
