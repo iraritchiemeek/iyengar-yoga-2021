@@ -50,9 +50,10 @@ h3 {
 	padding-top: 10em;
 }
 
-.logo {
+#logo {
 	font-weight: bold;
-	line-height: 1.2em;
+	line-height: 1.1em;
+	font-size: 1.1em;
 }
 
 .bg-blue {
@@ -63,14 +64,19 @@ h3 {
 	position: fixed;
 	height: 100%;
 	width: 100%;
+	// padding: 0 2em;
 	z-index: 2;
+	pointer-events: none;
 	.row {
 		height: 100%;
-	}
-	.col {
-		height: 100%;
-		border-right: 1px solid $blue;
-		opacity: 0.2;
+		&>div {
+			height: 100%;
+			border-right: 1px solid $blue;
+			opacity: 0.2;
+			&:first-child {
+				// border-left: 1px solid $blue;
+			}
+		}
 	}
 }
 
@@ -81,7 +87,6 @@ h3 {
 	position: absolute;
 	top: 0;
 }
-
 
 
 
