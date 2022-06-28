@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -14,14 +14,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/base.scss'
 
 function IndexPage() {
+
+   const [showTimetable, setShowTimetable] = useState(false);
+
   return (
     <>
-    <Timetable />
+    <Timetable active={showTimetable}/>
     <BgGrid />
-    <Header />
+    <Header showTimetable={showTimetable} setShowTimetable={setShowTimetable} />
     <Container fluid>
       <Row xs={1}>
-        <StaticImage src="../images/header-image.jpg" alt="Students" />
+        <StaticImage src="../images/bakehouse.jpg" alt="Students" />
       </Row>
     </Container>
     <Container fluid className="g-4">

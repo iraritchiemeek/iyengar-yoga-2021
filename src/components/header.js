@@ -6,7 +6,14 @@ import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
 import { Link } from "gatsby"
 
-function Header() {
+function Header(props) {
+
+	const handleShowTimetableChange = () => {
+		console.log('test')
+		console.log(props.showTimetable)
+		props.setShowTimetable(!props.showTimetable)
+	}
+
 	return (
 		<Navbar className="bg-white position-relative px-4 py-5" expand="md">
 			<Row className="w-100">
@@ -20,7 +27,7 @@ function Header() {
 						<Navbar.Collapse>
 							<Row className="w-100">
 								<Col className="">
-									<Nav.Item><Link>Timetable</Link></Nav.Item>
+									<Nav.Item onClick={handleShowTimetableChange}>Timetable</Nav.Item>
 								</Col>
 								<Col  className="">
 									<Nav.Item><Link>New Students</Link></Nav.Item>

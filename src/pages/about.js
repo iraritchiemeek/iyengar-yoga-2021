@@ -21,7 +21,7 @@ function IndexPage() {
     <Header />
     <Container fluid>
       <Row xs={1}>
-        <StaticImage src="../images/header-image.jpg" alt="Students" />
+        <StaticImage src="../images/download-5.jpg" alt="Students" />
       </Row>
     </Container>
     <Container fluid className="g-4">
