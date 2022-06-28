@@ -2,6 +2,7 @@ import * as React from "react"
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
+import { StaticImage } from "gatsby-plugin-image"
 
 function Footer() {
 	return (
@@ -17,6 +18,12 @@ function Footer() {
 						<p>Our studio is in The Bakehouse, a beautiful historic brick building from 1912. Swan Lane is a walkway between Floriditas on Cuba St and Marion St. The entrance is on the side of the "The Bakehouse", through the stainless steel door, upstairs and to the left. (Above Noble Rot Wine Bar.)</p>
 						<p>Email: <a href="mailto:tessa@wellingtonyoga.co.nz">tessa@wellingtonyoga.co.nz</a></p>
 						<p>Follow us on<br/>Facebook: @iyengaryogacentreofwellington<br/>Instagram: @iyengaryogawellington<br/>Twitter: @WellingtonYoga</p>
+					</Col>
+				</Row>
+				<Row>
+					<Col></Col>
+					<Col xs={9} className="d-flex justify-content-end">
+						<StaticImage src="../images/map.png" alt="Map" className="m-4"/>
 					</Col>
 				</Row>
 			</Container>
