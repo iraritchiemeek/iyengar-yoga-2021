@@ -30,15 +30,15 @@ function Header(props) {
 									<Nav.Item onClick={handleShowTimetableChange}>Timetable</Nav.Item>
 								</Col>
 								<Col  className="">
-									<Nav.Item><Link>New Students</Link></Nav.Item>
-									<Nav.Item><Link>Class Levels</Link></Nav.Item>
-									<Nav.Item><Link>Pricing</Link></Nav.Item>
-									<Nav.Item><Link>Retreats</Link></Nav.Item>
+									<Nav.Item><Link to="../">New Students</Link></Nav.Item>
+									<Nav.Item><Link to="../">Class Levels</Link></Nav.Item>
+									<Nav.Item><Link to="../">Pricing</Link></Nav.Item>
+									<Nav.Item><Link to="../retreats">Retreats</Link></Nav.Item>
 								</Col>
 								<Col  className="">
 									<Nav.Item><Link to="../about">About</Link></Nav.Item>
-									<Nav.Item><Link>Teachers</Link></Nav.Item>
-									<Nav.Item><Link>Contact</Link></Nav.Item>
+									<Nav.Item><Link to="../about">Teachers</Link></Nav.Item>
+									<Nav.Item><Link to="../about">Contact</Link></Nav.Item>
 								</Col>
 							</Row>
 						</Navbar.Collapse>
