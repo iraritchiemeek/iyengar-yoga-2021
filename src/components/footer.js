@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 function Footer() {
 	return (
-		<footer className="px-3 py-5 bg-blue">
+		<footer className="px-3 py-5 bg-blue" id="footer">
 			<Container fluid className="g-4">
 				<Row xs={1} md={6} className="g-4 justify-content-center">
 					<Col><h3>Contact</h3></Col>
@@ -17,7 +17,8 @@ function Footer() {
 					<Col md={4}>
 						<p>Our studio is in The Bakehouse, a beautiful historic brick building from 1912. Swan Lane is a walkway between Floriditas on Cuba St and Marion St. The entrance is on the side of the "The Bakehouse", through the stainless steel door, upstairs and to the left. (Above Noble Rot Wine Bar.)</p>
 						<p>Email: <a href="mailto:tessa@wellingtonyoga.co.nz">tessa@wellingtonyoga.co.nz</a></p>
-						<p>Follow us on<br/>Facebook: @iyengaryogacentreofwellington<br/>Instagram: @iyengaryogawellington<br/>Twitter: @WellingtonYoga</p>
+						<p><a href="https://www.facebook.com/IyengarYogaCentreWellington/" target="_blank">Facebook</a></p>
+						<p><a href=" https://www.instagram.com/iyengaryogawellington/" target="_blank">Instagram</a></p>
 					</Col>
 				</Row>
 				<Row>
