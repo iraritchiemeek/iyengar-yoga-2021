@@ -18,7 +18,7 @@ function Header(props) {
 		<Navbar className="bg-white position-relative px-4 py-5" expand="md">
 			<Row className="w-100">
 				<Col xs={3} className="px-4">
-					<Navbar.Brand id="logo">Iyengar Yoga Centre<br/>of Wellington<br/>New Zealand</Navbar.Brand>
+					<Navbar.Brand id="logo" href="../#">Iyengar Yoga Centre<br/>of Wellington<br/>New Zealand</Navbar.Brand>
 				</Col>
 				<Col/>
 				<Col xs={6}>
@@ -30,8 +30,8 @@ function Header(props) {
 									<Nav.Item onClick={handleShowTimetableChange}>Timetable</Nav.Item>
 								</Col>
 								<Col  className="">
-									<Nav.Item><Link to="../#new-students">New Students</Link></Nav.Item>
-									<Nav.Item><Link to="../#class-levels">Class Levels</Link></Nav.Item>
+									<Nav.Item><Link to="../#new-students">New students</Link></Nav.Item>
+									<Nav.Item><Link to="../#class-levels">Class levels</Link></Nav.Item>
 									<Nav.Item><Link to="../#pricing">Pricing</Link></Nav.Item>
 									<Nav.Item><Link to="../retreats">Retreats</Link></Nav.Item>
 								</Col>

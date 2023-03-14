@@ -29,7 +29,7 @@ function IndexPage() {
     </Container>
     <Container fluid className="g-4">
       <Row xs={1} md={6} className="pt-10 g-4 justify-content-center">
-        <Col><h2 className="pt-4 sticky-top">New Students</h2></Col>
+        <Col><h2 className="pt-4 sticky-top">New students</h2></Col>
         <Col>
           <div className="pt-4 sticky-top">
             <h3>Beginner courses</h3>
@@ -39,12 +39,12 @@ function IndexPage() {
             <p>Tuesday 20th October – 24th November</p>
           </div>
         </Col>
-        <Col md={4} id="new-students">
-          <p>New students are welcome to join our studio anytime and we teach in a way that makes yoga accessible to everybody regardless of age, gender, fitness or flexibility. We think everyone can benefit from the practice of yoga, it’s all about how we practice.</p>
-          <p>If you are new to Iyengar yoga the best place to start is with our Beginner Courses, the Level 1 classes or our General classes. Our Beginner Courses are ideal if you haven’t practiced yoga before and aren’t feeling confident or perhaps if you are working with limitations such as an injury or a medical condition. Everyone can benefit from attending our 4-week Beginner Course which is designed to build a foundational understanding of the practice and give you the confidence to start attending our other classes.</p>
-          <p>If you have practiced other styles of yoga before, if you're feeling confident, or are feeling inclined to get started straight away you can join our level 1 classes. Many of our students do start with our level 1 and we welcome new students to these classes. We also welcome new students to our General level classes, although if you are completely new to yoga attending a few Level 1 classes first would be ideal to give you a feel for the method and the use of props.</p>
-          <p>If you have practiced other styles of yoga before it is helpful to keep in mind that Iyengar yoga is a specific method that teaches us how to practice so it is ideal if you come in with an open mind and be receptive to learning a new methodology from the beginning.</p>
-          <p>Please feel free to contact Tessa if you have any questions or if you would like further advice regarding the best way to start your yoga practice with us.</p>
+        <Col md={4} className="pt-4" id="new-students">
+          <p>New students are welcome to attend our studio anytime. We teach in a way that makes yoga accessible to everybody regardless of age, gender, fitness or flexibility. Everyone can benefit from the practice of yoga, it’s all about how we practice.</p>
+          <p>If you are new to Iyengar yoga it's best to start is with our <a href="#level-beginner">Beginner Courses</a>, the <a href="#level-1">Level 1</a> classes or <a href="#level-general">General classes</a>. Our 4 week Beginner courses is ideal if you haven’t practiced yoga before and aren’t feeling confident or are working with an injury or a medical condition. The foundational understanding of the practice the Beginner course provides can benefit everyone, and will prepare you to attend our other classes.</p>
+          <p>If you've already practiced other styles of yoga before; are feeling confident; or want to get started straight away you can join our Level 1 classes. We warmly welcome the many new students who start at Level 1. New students are also welcome at General level classes, although those completely new to yoga would ideally attend a few Level 1 classes first to get a feel for the method and the use of props.</p>
+          <p>Iyengar yoga is a specific method that teaches us how to practice. If you have practiced other styles of yoga before, you will gain the greatest benefits if you come with an open mind, and are receptive to learning a new methodology.</p>
+          <p>Please feel free to contact <a href="mailto:tessa@wellingtonyoga.co.nz">Tessa</a> if you have any questions or if you would like further advice regarding the best way to start your yoga practice with us.</p>
         </Col>
       </Row>
       <Row xs={1} className="d-flex justify-content-between align-content-center pt-10">
@@ -62,55 +62,66 @@ function IndexPage() {
         </Col>
       </Row>
       <Row xs={1} md={6} className="g-4 justify-content-center pt-10">
-        <Col><h2 className="spt-4 pt-4 sticky-top">Class Levels</h2></Col>
+        <Col><h2 className="spt-4 pt-4 sticky-top">Class levels</h2></Col>
         <Col>
           <ul className="sticky-top pt-4 list-unstyled">
             <li><a href="#level-1">Level 1</a></li>
             <li><a href="#level-2">Level 2</a></li>
             <li><a href="#level-2-3">Level 3</a></li>
             <li><a href="#level-general">General</a></li>
-            <li><a href="#level-restorative">Restorative</a></li>
-            <li><a href="#level-beginner">Beginner Course</a></li>
+            <li><a href="#level-live">Live-streamed classes</a></li>
+            <li><a href="#level-beginner">Beginner course</a></li>
+            <li><a href="#level-workshop">Workshops</a></li>
+            <li><a href="#level-visiting">Visiting Iyengar yoga students</a></li>
           </ul>
         </Col>
         <Col md={4} id="class-levels"> 
+          <div className="pb-4 pt-4">
+            <h3>Our classes</h3>
+            <p>Our classes teach traditional yoga in a safe, supportive and non-competitive environment with a strong emphasis on learning through practice.</p>
+          </div>
           <div id="level-1" className="pb-4 pt-4">
             <h3>Level 1</h3>
-            <p>If you have completed our Beginner Course or are new to Iyengar yoga, the Level 1 classes are the best place to start. In Level 1 classes the preliminary postures, or asanas, are taught in a way that develops a foundational understanding of the method of Iyengar yoga and its use of props.</p>
-            <p>If it is your first class please arrive ten minutes early so the teacher can ask about any specific injuries or medical conditions you may have and so you can settle in.</p>
-            <p>Every student progresses at their own pace, depending on how consistently you are practicing, but on average you will spend 1-2 years as Level 1 student.</p>
-            <p>If you are visiting from other Iyengar schools feel free to join at your usual class 'level'.</p>
-            <p>If you have been regularly attending our Level 1 or General level classes for some time please feel free to jump up to Level 2 classes whenever you feel ready or enquire with our teachers at any time if you're not sure.</p>
+            <p>Level 1 classes are the best place to start if you have completed our Beginner course or are new to Iyengar yoga. These classes teach the preliminary postures, or asanas, in a way that develops a foundational understanding of the Iyengar yoga method, and its use of props.</p>
+            <p>Please arrive at class ten minutes early so the teacher can ask about any injuries or medical conditions you may have, and so you can settle in.</p>
+            <p>Students progress at their own pace, depending on how consistently they  practice. On average you will spend 1-2 years as a Level 1 student.</p>
+            <p>If you have been regularly attending our Level 1 or General classes for some time, please to move up to Level 2 classes when you feel ready. Feel free to ask  our teachers if you're not sure which is the best level of class for you.</p>
           </div>
           <div id="level-2" className="pt-4 pb-4">
             <h3>Level 2</h3>
-            <p>In Level 2 classes we start to work with more subtlety, precision, and longer timings within the postures. A wider range of asanas are introduced including the inversions. In the Level 2 classes we gradually build up our stamina and understanding of Sirsasana and Sarvangasana (headstand and shoulder stand) which are important components of a balanced practice.</p>
-            <p>Regular attendance allows for the benefits of the practice to integrate into our lives and ensures steady progress.</p>
+            <p>In Level 2 classes we start to work with more subtlety, precision, and longer timings within the postures. A wider range of asanas are introduced, including  inversions. In the Level 2 classes we gradually build up our stamina and understanding of Sirsasana (headstand) and Sarvangasana (shoulder stand) which are important components of a balanced practice.</p>
+            <p>Regularly attending students progress steadily, and find the benefits of the practice  integrate into their lives. </p>
           </div>
           <div id="level-2-3" className="pt-4 pb-4">
             <h3>Level 3</h3>
-            <p>For our regularly attending students who have an ongoing commitment to their practice and have already spent some time attending Level 2 classes.</p>
-            <p>Tessa teaches the Level 3 classes and considers these classes to be for students are working with intention to deepen their understanding of the practice and wish to further integrate yoga into their lives. In these classes we continue to refine our skill in action and develop greater depth of perception in the practice. There is a strong emphasis on the importance of the inversions and Sirsasana and Sarvangasana should already be established.</p>
-            <p>To get the most from these classes, regular attendance is expected and you should already have a home practice or have a willingness to begin one.</p>
+            <p>Level 3 classes are available for  regularly attending students who have already spent some time attending Level 2 classes and  are committed  to their practice.</p>
+            <p>Tessa teaches the Level 3 classes which are for students who work with intention to deepen their understanding of the practice, and to further integrate yoga into their lives. In these classes we continue to refine our skill in action and develop greater depth of perception in the practice. There is a strong emphasis on the importance of the inversions and Sirsasana and Sarvangasana should already be established.</p>
+            <p>Regular attendance is neccessary to get the most from these classes. You will already have a home practice or be willing to begin one.</p>
           </div>
           <div id="level-general" className="pt-4 pb-4">
             <h3>General</h3>
-            <p>These classes are suitable for everybody although if you are completely new to yoga these classes may not necessarily be the most ideal place for you to start. See our <a href="#new-students">New Student</a> section for more detailed information.</p>
-            <p>General classes are taught in the same progression as above, but all students are mixed in together. Newer students therefore also benefit from working in with and observing more experienced students. Alternative postures will be given when more experienced students are practicing inversions and other asanas that may not yet be suitable for newer students.</p>
+            <p>General classes are suitable for everybody, but are not the ideal place to start if you are completely new to yoga. See our <a href="#new-students">New Student</a> section for more information.</p>
+            <p>n general classes, students practicing at different levels are mixed in together. Students are supported to practice at their level and newer students benefit from practicing with and observing more experienced students. Alternative postures will be given when more experienced students are practicing inversions and other asanas that may not yet be suitable for newer students.</p>
             <p>Our general classes are a bustling and diverse mix of keen yogis!</p>
           </div>
-          <div id="level-restorative" className="pt-4 pb-4">
-            <h3>Restorative</h3>
-            <p>Suitable for students who have at least a little experience with Iyengar yoga (not ideal for new beginners, sorry).</p>
-            <p>BKS Iyengar originally developed not just the use of props in yoga, but he also developed restorative yoga as a practice in itself, which is now very popular and widely appreciated for its therapeutic benefits.</p>
-            <p>The restorative classes are slower in pace with an emphasis on quietening physically, emotionally and mentally. These classes are especially helpful to relieve stress, tension, anxiety and to balance and soothe the central nervous system. Restorative practice is especially helpful for maintaining a healthy immune system. Quite simply, restorative yoga makes you feel better!</p>
-            <p>The Sunday night Restorative session is the perfect way to rejuvenate at the end of your week. We also have restorative workshops from time to time.</p>
+          <div id="level-live" className="pt-4 pb-4">
+            <h3>Live-streamed classes</h3>
+            <p>Some General and Level 2 classes include a live-streamed option for students to attend without being in the studio. In-person teaching is particularly important when beginning yoga practice, so you will need to be at least a regularly-attending Level 1 student familiar with using the props to attend a live-streamed class.</p>
+            <p>Wellington-based students are expected to attend the studio when  possible to benefit from in-person teaching.   </p>
           </div>
           <div id="level-beginner" className="pt-4 pb-4">
             <h3>Beginner Course</h3>
-            <p>Our regular Beginner Courses are ideal for new students and include four specific beginner classes.</p>
-            <p>Students start as beginners together and the course will develop confidence while starting a yoga practice.</p>
-            <p>For more information please visit our <a href="new-students">New Students</a> page.</p>
+            <p>Our regular Beginner courses are ideal for new students and include four specific beginner classes.</p>
+            <p>Students start as beginners together and the course  develops confidence while starting a yoga practice.</p>
+            <p>You can find more information on our <a href="new-students">New students</a> page.</p>
+          </div>
+          <div id="level-workshop" className="pt-4 pb-4">
+            <h3>Workshops</h3>
+            <p>Workshops allow more in-depth focus on areas of practice and are offered from time to time. Information about workshops, and any prerequisites, is included in studio newsletters. Some familiarity with the Iyengar yoga method is usually required.</p>
+          </div>
+          <div id="level-visiting" className="pt-4 pb-4">
+            <h3>Visiting Iyengar yoga students</h3>
+            <p>If you are visiting from other Iyengar schools feel free to join at your usual class ‘level'.</p>
           </div>
         </Col>
       </Row>
